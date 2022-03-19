@@ -24,10 +24,10 @@ while(continua == "sim"){
   //validação
   let rodadas = +prompt('Escolha quantas rodadas deseja jogar ( No maximo 10 rodadas): ')
 
-  while(rodadas > 10 ){
+  while(rodadas > 10){
     console.log("Numero de rodadas invalido")
     console.log()
-    rodadas = +prompt("Escolha quantas rodadas deseja jogar ( No maximo 5 rodadas): ")
+    rodadas = +prompt("Escolha quantas rodadas deseja jogar ( No maximo 10 rodadas): ")
   }
 
   // jogo
@@ -83,7 +83,8 @@ while(continua == "sim"){
       console.log('Niguem Pontua')
    }
  }
-
+console.clear()
+console.log(`O Placar final ficou ${pontosJ} X ${pontosM} `)
   // Final
  if(pontosJ > pontosM){
   console.log(`Parabens!! ${nome} Você foi o grande ganhador !!`)
