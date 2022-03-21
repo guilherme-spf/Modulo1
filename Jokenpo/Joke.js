@@ -29,7 +29,8 @@ while(continua == "sim"){
     console.log()
     rodadas = +prompt("Escolha quantas rodadas deseja jogar ( No maximo 10 rodadas): ")
   }
-
+  console.clear()
+  
   // jogo
   for(let i = 0; i < rodadas; i++){
     let user = prompt('Faça sua escolha para jogar: ').toLowerCase();
